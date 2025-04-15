@@ -9,7 +9,7 @@ $database = "attendance-db";
 $user = "root";
 
 //password as empty string
-$password = "";
+$password = "newpassword";
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$database", $user, $password);
     // Set PDO error mode to exception for better error handling
